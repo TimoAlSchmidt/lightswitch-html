@@ -11,12 +11,14 @@ function lightswitch()
 {
     if(light)
     {
+        console.log("light is off")
         document.body.style.background = "black";
         btn.innerHTML = "Switch light on";
         light = false;
     }
     else
     {
+        console.log("light is on")
         document.body.style.backgroundColor = "yellow";
         btn.innerHTML = "Switch light off";
         light = true;
